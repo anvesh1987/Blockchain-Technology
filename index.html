@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blockchain Technology</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,480;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -187,8 +189,48 @@
     .note{ grid-template-columns:1fr; text-align:center; padding:40px 26px; }
     .note .mark{ margin:0 auto; }
     footer .fgrid{ grid-template-columns:1fr 1fr; }
-	
-	</style>
+		
+		</style>
+		<style>
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        .btn-primary {
+            background: #007bff;
+            color: white;
+        }
+
+        .btn-md {
+            font-size: 16px;
+        }
+
+        .btn:disabled {
+            opacity: 0.7;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            border: 2px solid white;
+            border-top-color: transparent;
+            border-radius: 50%;
+            margin-right: 8px;
+            vertical-align: middle;
+
+            animation: spin 0.7s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -210,7 +252,7 @@
 </nav>
  
 <header class="hero">
-  <div class="hero-sky"></div>
+<div class="hero-sky"></div>
   <div class="hero-glow"></div>
   <svg id="birds" viewBox="0 0 400 60" preserveAspectRatio="none" aria-hidden="true">
     <path d="M40 20 q6 -8 12 0 q6 -8 12 0" stroke="#d7e0cb" stroke-width="1.4" fill="none" stroke-linecap="round"/>
@@ -301,7 +343,11 @@
       <div class="split-photo"><div class="organic-frame ph--fern"></div></div>
       <div>
         <div class="kicker">Question Papers</div>
-        <h2> Will be Updated Shortly..!!!</h2>
+        <h2> Will be Updated Shortly..!!!</h2>   <div class="row">
+    <button class="btn btn-primary btn-md" disabled>
+        <span class="spinner"></span>
+        Processing…
+    </button>
        <!-- <p>We've mapped every trail on foot, not by satellite, and we still close sections after heavy rain instead of waiting for someone to get hurt finding out why.</p>
         <div class="checklist">
           <div class="row"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12l4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Trail reports updated every morning, not just after storms</div>
@@ -317,6 +363,10 @@
   <div class="wrap">
     <div class="section-head reveal">
       <div class="kicker">Blockchain Programs</div>
+<button class="btn btn-primary btn-md" disabled>
+        <span class="spinner"></span>
+        Processing…
+    </button>
       <h3>Creation of Block..  Blockchain in Merkle Trees., Creating ERC20 token., Crypto-currency Wallet.., Block chain Implementation Programming code.., Implementation of Mining using Blockchain etc..,</h3>
     </div>
     <div class="gallery reveal">
@@ -351,10 +401,6 @@
       <h2>Unit Wise Important Questions</h2>
      <!-- <p>No two are alike — pick by how far from the main lodge you'd like to be.</p> -->
     </div>
-	
-	
-	
-	
 	    <div class="trail-row">
       <div class="trail-card reveal">
      <!--   <div class="trail-photo"><div class="ph ph--canopy">
